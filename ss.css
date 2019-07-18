@@ -1,0 +1,202 @@
+body{ background-image: url("bacccck.jpg");
+height:100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+family-font:quicksand;}
+
+.navbar {
+overflow :hidden;
+  background-color: #333;
+  }
+.m{margin-right: 500px;}
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.div1 {
+  width: 100px;
+  height: 100px;
+  background: none;
+  position: relative;
+  -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */  
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {top: 0px;}
+  to {top: 160px; background-color: none;}
+}
+
+@keyframes example {
+  from {top: 0px;}
+  to {top: 160px; background-color: none;}
+}
+
+.div2 {
+  width: 100px;
+  height: 100px;
+  background: none;
+  position: relative;
+  -webkit-animation-name: example1;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s;  /* Safari 4.0 - 8.0 */  
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-name: example1;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+  from {top: 0px;}
+  to {top: 20px; background-color: none;}
+}
+
+@keyframes example1 {
+  from {top: 0px;}
+  to {top: 2px; background-color: none;}
+}
+.hr1{ margin-top:150px}
+.links{ margin-top: 50px;
+margin-left: 50px;
+}
+p{ color: black;
+margin-left: 540;
+margin-top: 500;}
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: navy;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.bb{
+margin-left: 800px;
+margin-top: 100px;
+}
+
+.button1 {
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 38px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 {
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 38px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+

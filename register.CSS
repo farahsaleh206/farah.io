@@ -1,0 +1,33 @@
+body{ background-image: url("bacccck.jpg");
+height:100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+family-font:quicksand;}
+.reg{ margin-top: 100px;
+margin-left: 500px;}
+.navbar {
+overflow :hidden;
+  background-color: #333;
+  }
+.m{margin-right: 500px;}
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.hr1{ margin-top:150px}
+.links{ margin-top: 50px;
+margin-left: 50px;
+}
+p{ color: black;
+margin-left: 540;
+margin-top: 500;}
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
